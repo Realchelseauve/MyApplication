@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   >
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="279dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/spinner1"
+        android:layout_marginTop="84dp"
+        android:background="@color/white"
+        android:spinnerMode="dropdown" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="277dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="34dp"
+        android:background="@color/white"
+        android:spinnerMode="dialog"
+        />
+
+
+    <!--    <Spinner
+         android:id="@+id/spinner"
+         android:layout_width="0dp"
+         android:layout_height="0dp"
+         android:layout_alignParentStart="true"
+         android:layout_alignParentTop="true"
+         android:layout_marginStart="74dp"
+         android:layout_marginTop="45dp"
+         android:entries="@array/Ip_phone"
+         android:isScrollContainer="?android:attr/windowOverscan"
+         android:minHeight="@dimen/as"
+         android:prompt="@string/Choose_an_ipphone"> -->
+
+
+    <Button
+        android:id="@+id/btnregistration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="158dp"
+        android:text="REGISTER" />
+
+    <ListView
+        android:id="@+id/qert"
+        android:layout_width="186dp"
+        android:layout_height="422dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="234dp"
+        android:textFilterEnabled="true" />
+
+    <ListView
+        android:id="@+id/qert1"
+        android:layout_width="186dp"
+        android:layout_height="422dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="203dp"
+        android:layout_marginTop="234dp" />
+
+    <Button
+        android:id="@+id/btnderegistration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/spinner2"
+        android:layout_alignTop="@+id/btnregistration"
+        android:text="DE-REGISTER" />
+
+
+</RelativeLayout>
